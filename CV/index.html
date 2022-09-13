@@ -48,8 +48,7 @@
                 <a href="#skill" class="nav-item nav-link">Skill</a>
                 <a href="#qualification" class="nav-item nav-link">Quality</a>
                 <a href="#projects" class="nav-item nav-link">Projects </a>  
-                <a href="#testimonial" class="nav-item nav-link">Review</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <a href="#courses" class="nav-item nav-link">Completed courses</a>
             </div>
             <a href="https://www.linkedin.com/in/fabian-bob-mihai/"  target="_blank" class="btn btn-menu d-none d-lg-block" style="background-color:#457efa; color: #ffffff;">Contact Me Here</a>
         </div>
@@ -58,7 +57,7 @@
 
  
     <!-- Header Start -->
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" style="min-height: 100vh;">
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" style="min-height: 100vh" id="home">
         <div class="container">
             <div class="row align-items-center">
 
@@ -155,10 +154,10 @@ Do I need WebKit?
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">Javascript</h6>
-                            <h6 class="font-weight-bold">70%</h6>
+                            <h6 class="font-weight-bold">73%</h6>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div class="skill mb-4">
@@ -327,63 +326,140 @@ Do I need WebKit?
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projects</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Projects</h1>
             </div>
-            <div class="row pb-3">
-                <div class="service-box col-lg-4 col-md-5 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fas fa-futbol service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Ectmos</h4>
-                    </div>
-                    <p>To create this app I used the <b>MERN stack(MongoDB, Express.js, Node.js) </b>  but I replace React with <b>Bootstrap</b>. It is a website that brings together the person how wants to play a sport with the person who needs a players to complete his team.</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="https://ectmos.herokuapp.com/" target="_blanck">View Project</a>
-                </div>
-                
-                <div class="service-box col-lg-3 col-md-5 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fas fa-cocktail fa-2x service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Drinks Menu</h4>
-                    </div>
-                    <p>This application was created with <b>React</b>. I had to fetch the data from an API using <b>Axios</b> and I used <b>React Router 6</b> for a better/faster navigation between pages.</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="https://the-cocktail-database.netlify.app/" target="_blanck">View Project</a>
-                </div>
-                
-                <div class="service-box col-lg-4  col-md-5 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-react fa-2x service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">React Dashboard App</h4>
-                    </div>
-                    <p>This is the nicest <b>React</b> application that I ever created. To style the app I used <b>Tailwind</b> and to help myself to create components with a lot of functionality (like filter, delete, drag and drop, create… ) I used <b>Syncfusion</b>. You have something to play with on every page.</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="https://my-nicest-react-app.netlify.app/" target="_blanck">View Project</a>
-                </div>
-             
+            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel" >
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-success p-1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-success p-1"></li>
+                </ol>
 
-                <div class="service-box col-lg-4 col-md-5 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fas fa-2x  fa-chart-area service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Shops</h4>
+                <div class="carousel-inner" >
+                    <!-- first page -->
+                    <div class="carousel-item active">
+                        <h1 class="d-flex align-items-center justify-content-center text-secondary mb-5">Best Projects</h1>
+                        <div class="row pb-3">
+                            <div class="service-box col-lg-4 col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class="fa fa-2x fas fa-futbol service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">Ectmos</h4>
+                                </div>
+                                <p>To create this app I used the <b>MERN stack(MongoDB, Express.js, Node.js) </b>  but I replace React with <b>Bootstrap</b>. It is a website that brings together the person how wants to play a sport with the person who needs a players to complete his team.</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://ectmos.herokuapp.com/" target="_blanck">View Project</a>
+                            </div>
+                            
+                          
+                            <div class="service-box col-lg-3 col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class="fas fa-2x  fa-question service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">Quiz</h4>
+                                </div>
+                                <p>Test your knowledge on this <b>React app</b>. To fetch the questions i used <b>Axios</b> .Like most of my apps I used <b>useContext</b>. Learing is a game. Give it a try</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://interactive-quiz-game.netlify.app/" target="_blanck">View Project</a>
+                            </div>
+                            
+                            <div class="service-box col-lg-4  col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class="fab fa-react fa-2x service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">React Dashboard App</h4>
+                                </div>
+                                <p>This is the nicest <b>React</b> application that I ever created. To style the app I used <b>Tailwind</b> and to help myself to create components with a lot of functionality (like filter, delete, drag and drop, create… ) I used <b>Syncfusion</b>. You have something to play with on every page.</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://my-nicest-react-app.netlify.app/" target="_blanck">View Project</a>
+                            </div>
+                        
+        
+                            <div class="service-box col-lg-4 col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class="fas fa-2x  fa-chart-area service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">Shops</h4>
+                                </div>
+                                <p>Shops it is a <b>React app</b>. The app lets you interact with the charts by clicking on one of the 3 cards from dashbord. You can download the charts in 3 formats(PNG, SVG, CSV), zoom in or zoom out and select a certain timeframe by using the mouse. In the creaction of the table I used <b> Material Ui </b>.</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://react-chart-page.netlify.app/" target="_blanck">View Project</a>
+                            </div>
+                            <div class="service-box col-lg-3 col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class="fas fa-cocktail fa-2x service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">Drinks Menu</h4>
+                                </div>
+                                <p>This application was created with <b>React</b>. I had to fetch the data from an API using <b>Axios</b> and I used <b>React Router 6</b> for a better/faster navigation between pages.</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://the-cocktail-database.netlify.app/" target="_blanck">View Project</a>
+                            </div>
+                            
+        
+                            <div class="service-box col-lg-4 col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class="fa fa-2x fas fa-tasks service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">Project Manger</h4>
+                                </div>
+                                <p>A <b>TypeScript</b>  base project.A basic aplication with drag and drop capabilities but build in a different way. I created a class the follow the state  of the application , like React.</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://bobxm.github.io/1/" target="_blanck">View Project</a>
+                            </div>
+                            
+                        
+                        </div>
                     </div>
-                    <p>Shops it is a <b>React app</b>. The app lets you interact with the charts by clicking on one of the 3 cards from dashbord. You can download the charts in 3 formats(PNG, SVG, CSV), zoom in or zoom out and select a certain timeframe by using the mouse. In the creaction of the table I used <b> Material Ui </b>.</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="https://react-chart-page.netlify.app/" target="_blanck">View Project</a>
-                </div>
-                <div class="service-box col-lg-3 col-md-5 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fas fa-feather-alt fa-2x service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Kepper app</h4>
+                    <!-- second page -->
+                    <div class="carousel-item ">
+                        <h1 class="d-flex align-items-center justify-content-center text-secondary mb-5">React</h1>
+                        <div class="row pb-3">
+                            <div class="service-box col-lg-4 col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class="fa fa-2x fas fa-image service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">Look for photos</h4>
+                                </div>
+                                <p>This is a <b>React</b> app. To create this app I fetch the data from 2 <b>APIs</b> that came from unsplash.com. The first API it was used to get the default 10 photos and the second API it was used to implemnt a <b>search query</b>. To make this app batter I implemented infinite scroll</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://look-for-photos.netlify.app/" target="_blanck">View Project</a>
+                            </div>
+                            
+                           
+                            <div class="service-box col-lg-3 col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class="fas fa-feather-alt fa-2x service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">Kepper app</h4>
+                                </div>
+                                <p>The Kepper it was build using <b>React</b>. Kepper provides an easy way to take notes and put your thoughts on the screen.</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://kepper-take-notes.netlify.app/" target="_blanck">View Project</a>
+                            </div>
+                            
+                            <div class="service-box col-lg-4  col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class="fas fa-newspaper fa-2x service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">News feed</h4>
+                                </div>
+                                <p>Like the other apps, this is to a <b>React</b> application . The app uses <b>React Router 6</b> and to change things around a choose to use <b>useReducer</b>.</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://world-news-feed.netlify.app/" target="_blanck">View Project</a>
+                            </div>
+
+                            <div class="service-box col-lg-4 col-md-5 text-center mb-5">
+                                <div class="d-flex align-items-center justify-content-center mb-4">
+                                    <i class=" fab fa-imdb fa-3x service-icon bg-primary text-white mr-3"></i>
+                                    <h4 class="font-weight-bold m-0">Quest a movie</h4>
+                                </div>
+                                <p>This application was created with <b>React</b>. I had to <b>fetch</b> the data from IMDb API and I used <b>React Router 6</b> for a better/faster navigation between pages. Make use of the <b>search query</b> to get your favorite movies.</p>
+                                <a class="border-bottom border-primary text-decoration-none" href="https://quest-a-movie.netlify.app/" target="_blanck">View Project</a>
+                            </div>
+                            
+                        
+                        </div>
                     </div>
-                    <p>The Kepper it was build using <b>React</b>. Kepper provides an easy way to take notes and put your thoughts on the screen.</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="https://kepper-take-notes.netlify.app/" target="_blanck">View Project</a>
+                  
                 </div>
 
-                <div class="service-box col-lg-4 col-md-5 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fas fa-tasks service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Project Manger</h4>
-                    </div>
-                    <p>A <b>TypeScript</b>  base project.A basic aplication with drag and drop capabilities but build in a different way. I created a class the follow the state  of the application , like React.</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="https://bobxm.github.io/1/" target="_blanck">View Project</a>
-                </div>
+
+
+                <button class="carousel-control-prev incercare d-flex justify-content-center "  data-target="#carouselExampleIndicators" data-slide="prev" >
+                    <span class="carousel-control-prev-icon bg-info rounded-circle"  ></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next incercare mr-3"  data-target="#carouselExampleIndicators" data-slide="next" >
+                    <span class="carousel-control-next-icon bg-info rounded-circle"   ></span>
+                    <span class="sr-only">Next</span>
+                </button>
+
                 
-              
             </div>
+
+
+
+
         </div>
     </div>
     <!-- Projects End -->
@@ -392,8 +468,8 @@ Do I need WebKit?
   
 
 
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5" id="testimonial">
+    <!-- Completed courses start -->
+    <div class="container-fluid py-5" id="courses">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Courses</h1>
@@ -448,7 +524,7 @@ Do I need WebKit?
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+    <!-- Completed courses End -->
  
 
 
@@ -501,9 +577,7 @@ Do I need WebKit?
 
     
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+  
 
     <!-- Template Javascript -->
    
