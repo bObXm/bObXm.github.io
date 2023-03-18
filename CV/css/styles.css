@@ -527,6 +527,14 @@ img {
   width: 75%;
 }
 
+.skills-container .skills-bootstrap {
+  width: 88%;
+}
+
+.skills-container .skills-tailwind {
+  width: 82%;
+}
+
 
 .skills-container .skills-node {
   width: 70%;
@@ -540,8 +548,8 @@ img {
   width: 66%;
 }
 
-.skills-container .skills-bootstrap {
-  width: 88%;
+.skills-container .skills-mongoose {
+  width: 60%;
 }
 
 .skills-container .skills-github {
@@ -551,6 +559,31 @@ img {
 .skills-container .skills-agile-practices  {
   width: 55%;
 }
+
+.skills-container .skills-communication{
+  width: 85%;
+}
+
+.skills-container .skills-time{
+  width: 86%;
+}
+
+.skills-container .skills-adaptability{
+  width: 80%;
+}
+
+.skills-container .skills-teamwork{
+  width: 90%;
+}
+
+.skills-container .skills-empathy{
+  width: 88%;
+}
+
+.skills-container .skills-details{
+  width: 89%;
+}
+
 
 /* QUALIFICATION */
 .qualification-tabs {
