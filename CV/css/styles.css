@@ -584,6 +584,30 @@ img {
   width: 89%;
 }
 
+.skills-container .skills-java{
+  width: 70%;
+}
+
+.skills-container .skills-spring{
+  width: 75%;
+}
+
+.skills-container .skills-hibernate{
+  width: 85%;
+}
+
+.skills-container .skills-testing{
+  width: 67%;
+}
+
+.skills-container .skills-intellij{
+  width: 63%;
+}
+
+.skills-container .skills-linux{
+  width: 69%;
+}
+
 
 /* QUALIFICATION */
 .qualification-tabs {
